@@ -5,6 +5,20 @@ body {
   padding: 1rem;
 }
 
+.change-button {
+  transition-duration: 0.4s;
+  height: 30px;
+  font-size: 14px;
+  border: none;
+
+}
+
+.change-button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
 .cabecalho {
   text-align: center;
   color: #ffbf69;
